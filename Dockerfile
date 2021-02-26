@@ -11,5 +11,5 @@ RUN apt-get update \
 
 USER airflow
 
-RUN pip install --no-cache-dir --user airflow-prometheus sqlalchemy-solr
+RUN pip install --no-cache-dir --user airflow-exporter sqlalchemy-solr
 
